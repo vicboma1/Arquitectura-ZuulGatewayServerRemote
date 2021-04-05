@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: zuul-remote-server
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true             #Arranque mediante config-service (true)
